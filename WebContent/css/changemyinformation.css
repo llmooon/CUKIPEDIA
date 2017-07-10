@@ -1,0 +1,12 @@
+body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;webkit-tap-highlight-color:#fed136}
+.btn-xl {
+    color: #fff;
+    background-color: #ac8f5d;
+    border-color: #ac8f5d;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 15px 30px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}

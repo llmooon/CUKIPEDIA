@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+.horizon{
+	    border-top: 4px solid #56453b;
+}
+div.left,div.right{
+
+    float: left;
+    width: 46%;
+    margin: 0px;
+    padding : 0px;
+    height : 40px;
+    font-size: 22px;
+ 	color : white;
+ 	margin:20px;
+ 	font-family: 'Hanna', serif;
+}
+div.left{
+	width:47%;
+	text-align: right;
+}
+div.right{
+	width:40%;
+	text-align: left;
+
+}
+.tabbable{
+	color:black;
+	
+}
+.tab-content{
+	color:black;
+}
+.commonleft,.commonright{
+	margin:20px;
+	float : left;
+	font-size:25px;
+	color : #ffe045;
+	padding: 10px;
+	font-family: 'Hanna', serif;
+}
+.commonleft{
+	width: 47%;
+	text-align: right;
+}
+.commonright{
+	width:40%;
+	text-align: left;
+}
+.line{
+	border-style: 1px solid white;
+}
+a.active{
+	font-style:italic;
+	color : black;
+}
+.nav-tabs>li {
+	width:20%;
+}
+session.question{
+	color:black;
+	font-size:20px;
+}
+.quest{
+	color : white;
+	font-size:23px;
+}
+.result{
+	font-size:30px;
+	font-family: 'Hanna', serif;
+}
+.h1234{
+	color:white;
+
+}
+hr{
+	border-width:3px;
+}
+
+.list{
+	width:50%;
+	padding:10px;
+	margin:auto;
+	font-family: 'Hanna', serif;
+	color : white;
+	font-size:24px;
+	border:3px solid white;
+	table-align:center;
+
+	text-align:center;
+}
+
+.list3{
+	padding:10px;
+	margin:10px;
+	text-align: center;
+}
+.list2{
+	color:#ffc600;
+	padding:10px;
+	margin:10px;
+	text-align: center;
+}
+.name{
+	color:white;
+}
+.name:hover{
+	color:#ffc600;
+}

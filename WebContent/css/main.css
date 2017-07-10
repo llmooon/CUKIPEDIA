@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+body{
+		font-family: 'Hanna', serif;
+
+}
+
+div.search_section{
+	font-family: 'Hanna', serif;
+
+
+}
+#search_lecture{
+	width:760px;
+	font-size:40px;
+	background-color:transparent;
+	color:white;
+	border-radius:3px;
+	letter-spacing:1.4px;
+	height:70px;
+	border:solid 5px;
+
+}
+#search_button{
+	height:70px;
+	font-size:35px;
+	background-color:white;
+	color:black;
+	letter-spacing:1.4px;
+	border:solid 5px white;
+	}
+
+header.Main_header{
+	background-color:#523e32;
+}
+
+h4{
+	letter-spacing:1.4px;
+
+}
+
+
+#hover_class:hover{
+	opacity:0.6;
+	text-decoration:underline;
+}
+
+#Main_title{
+	font-size:70px;
+}
+
+#tag_name{
+	color:white;
+}
