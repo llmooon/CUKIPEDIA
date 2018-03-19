@@ -126,8 +126,7 @@ public class CourShowServlet extends HttpServlet {
 		int cnt = 0;
 		try {
 			conn = DriverManager.getConnection(
-					"jdbc:mysql://203.229.206.12:3306/fashion?useUnicode=true&characterEncoding=utf8", "phone3068",
-					"gkrorvotus");
+					);
 			if (conn == null)
 				throw new Exception("데이터베이스에서 불러올 수 없습니다.");
 			stmt = conn.createStatement();

@@ -98,8 +98,7 @@ public class AddLostItem extends HttpServlet {
 		try {
 			Connection con = null;
 			con = DriverManager.getConnection(
-					,
-					"gkrorvotus");
+					);
 			java.sql.Statement st = null;
 			st = con.createStatement();
 			st.executeUpdate("insert into lostitem(itemname,lostplace,lostname,lostdate,lostimg,phone,id) value ('" + itemname + "','" + lostplace + "','" + lostname + "','"
